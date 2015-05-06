@@ -1,0 +1,334 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+	outline:none;
+	list-style-type:none;
+}
+
+body {
+background:url(../images/body-bg.png) repeat 0 0;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+}
+a{ text-decoration: none; color: #000;}
+a:hover{ text-decoration: underline; }
+
+.clear {
+	clear:both;
+	width:100%;
+	display:block;
+	height:0;
+	overflow:hidden;
+}
+.container {
+	margin:0 auto;
+	position:relative;
+	max-width:1218px;
+}
+.logo {float:left;}
+
+.headerbg {background:url(../images/topbar.jpg) repeat-x 0 0; padding-top:5px;}
+
+
+header, nav, section, article, section, aside {display:block;}
+
+@font-face {
+ font-family: 'Helvetica Light';
+ src: url('../fonts/HelveticaNeueLTPro-Lt.eot');
+ src: local('hl'), url('../fonts/HelveticaNeueLTPro-Lt.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+ @font-face {
+ font-family: 'TradeGothicLT-Std';
+ src: url('../fonts/Trade-Gothic-LT-Std.eot');
+ src: local('tgt'), url('../fonts/Trade-Gothic-LT-Std.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'Lato Light';
+ src: url('../fonts/Lato-Light.eot');
+ src: local('ll'), url('../fonts/Lato-Light.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+
+header {border-bottom:1px solid #fff; border-top:1px solid #fff; margin-bottom:20px;}
+
+nav {float:right; margin-top:30px;}
+nav ul {list-style-type:none; font-family: 'TradeGothicLT-Std', arial; font-size:14px;}
+nav ul li {float:left; padding:0 15px; background:url(../images/devider.png) no-repeat 0 center;}
+nav ul li:first-child {background:none;}
+
+
+nav ul li a {color:#fff; text-decoration:none; padding:10px 5px; float:left; border-bottom:5px solid transparent;;}
+nav ul li a:hover, nav ul a.active {border-bottom:5px solid #ff0000;text-decoration: none;}
+
+.menu span {
+	display:none;
+}
+
+.topAd {clear:both; text-align:center; padding:15px 0; line-height:0;}
+.topAd img{max-width:100%;}
+
+.slideshow {background:#ff0000;}
+.slide {position:relative; text-align:left; line-height:1; background: #000; font-size: 15px; color: #fff; }
+.slide img{max-width:100%;}
+.slide object{}
+
+
+.contentarea {float:left; width:100%; padding:20px 0;}
+
+.colum1 {float:left; width:24%; margin-right:1%;}
+.colum2 {float:left; width:50%; margin-right:1%;}
+.colum3 {float:left; width:24%;}
+
+.module {background:#fff; margin-bottom:10px;}
+.module:after, .module:before {content:""; display:table;}
+.module:after {clear:both;}
+
+.Title {font-size:18px; text-transform:uppercase; padding:10px; color:#fff;}
+
+.yellow {background:#ffcc00; color:#000;}
+.red {background:#ff0000;}
+
+.module-inner {padding:10px;}
+.module-inner-videos {padding:10px;}
+
+.module-inner-videos object{height:360px;}
+.module-inner-videos p{ padding-top:10px;}
+
+.thumb {width:35%; float:left;}
+.thumb img {max-width:100%;}
+
+.
+
+.picture {padding:4px;}
+.picture img {max-width:100%;}
+
+.description {padding:8px; font-weight:normal; font-size:16px;}
+h3 {font-family: 'Lato Light', arial; font-size:20px;}
+
+.gallery {padding:4px; font-weight:normal; font-size:18px;}
+.gallery:after, .gallery:before {content:""; display:table; clear: both; width: 100%;}
+.gallery:after {clear:both;}
+.gallery  a { margin:4px; display: block; overflow: hidden;margin-bottom:10px;}
+.gallery  a img {max-width:100%;}
+.gallery .date{ float: right;}
+
+.gallery .description{ padding: 0; font-size:13px; font-family: 'Lato Light', arial; font-weight: bold;}
+
+.more {font-size:18px; color:#2f6092; float:right; margin:0 10px 10px;}
+
+.padding10_TB {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.padding15_TB {
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.ad1 {margin:10px 0;}
+.ad1 img {max-width:100%;}
+
+
+.twittertweets{ /*background:#fff;*/ overflow:hidden; padding:4px;}
+.twitter-Title {font-size:22px; color:#476e00;}
+.FieldRight{float:right; position: relative; width:52%;}
+
+.twitterAdd {float: left; width: 46%;}
+.twitterAdd  img {max-width:100%;}
+
+.twitter-cont {color:#000000; font-size:12px; border-bottom:1px solid #cacaca; padding-bottom:10px;}
+.twitter-cont p {padding-top:10px;}
+
+.rightad img{ max-width:100%}
+.rightad div{position: inherit!important;}
+
+.row {padding:10px 12px;}
+
+.videos {float:left; width:50%;}
+.morevideos {width:100%;}
+.morevideos .video{
+margin: 10px 1% 0 1%;
+}
+
+.video {position:relative; margin:10px 2% 0 0; float:left; width:31%;}
+.video img {width: 142px;height: 115px;}
+
+.video-description {padding-bottom:5px;}
+
+
+.play {
+	background:url(../images/play.png) no-repeat 0 0; 
+	width:31px; 
+	height:31px; 
+	display:block; 
+	position:absolute; 
+	left:35%; top:30%;
+	background-size:31px 31px;
+}
+.playv {
+	background:url(../images/play.png) no-repeat 0 0; 
+	width:31px; 
+	height:31px; 
+	display:block; 
+	position:absolute; 
+	left:35%; top:40%;
+	background-size:31px 31px;
+}
+
+.margin10_T{ margin-top:10px;}
+.margin20_T{ margin-top:20px;}
+.margin15_T{ margin-top:15px;}
+
+
+.bottomad{ text-align:center; padding:5px 0; clear:both;}
+.bottomad  img{ max-width:100%}
+
+.footer {background:url(../images/footerbg.png) no-repeat center bottom; padding:30px 0; text-align:center; border-top:2px solid #ff0000; color:#b3b3b3; font-size:11px;}
+.footer p{padding:6px 0;}
+.footer a{color:#b3b3b3; text-decoration:none;}
+
+.width50 {width:48%; float:left;}
+[class*="width"] { display:block; float:left; margin-right:2%; margin-bottom:5px;}
+[class*="width"]:last-child {margin-right: 0;}
+.colum2 .width50{min-height: 80px; }
+.span4{width:40%; float:left; margin:0;}
+.span5{width:48%; float:left;}
+.span6{width:58%; float:left;}
+
+[class*="span"] {display:block; float:left; margin-left:2%;}
+[class*="span"]:first-child {margin-left: 0;}
+
+.span4 img {width:100%; height:80px;}
+
+@media (min-width:1101px) and (max-width:1230px) {
+.celebrity-gallery a, .gallery a {width:46%;}
+
+}
+
+@media (min-width:1000px) and (max-width:1100px) {
+
+.Videosrow img {float:left; width:46%;}
+.Videosrow p {padding-left:50%; font-size:15px;}
+}
+
+
+@media (min-width:801px) and (max-width:999px) {
+
+.slide img {height:auto;}
+
+.Videosrow {padding:6px;}
+.Videosrow img {float:left; width:45%;}
+.Videosrow p {padding-left:48%; font-size:13px;}
+
+}
+
+@media (max-width:679px) {
+
+.menu {
+float:left;
+position:relative; background:none;
+}
+.menu span {
+display:block;
+padding:10px;
+color:#fff;
+ font-weight:bold;
+ text-shadow:0 2px 1px #000;
+cursor:pointer;
+}
+.Navigation {
+display:none;
+}
+.menu:hover ul {
+display:block;
+position:absolute;
+right:0;
+top:32px;
+min-width:200px;
+z-index:20; border:1px solid #383c3b; border-bottom:none;
+}
+.menu:hover ul li {
+float:none;
+display:block;
+background:#050404; border-bottom:1px solid #383c3b;
+}
+.menu:hover ul li a {margin:0;
+display:block;
+float:none;
+}
+
+
+}
+
+@media (max-width:800px) {
+
+.slide {position: relative; float: none; width: 100%; line-height:0;}
+.slide img {height:auto;}
+
+.contentarea {float:left; width:auto; padding:20px 10px;}
+.colum1, .colum2, .colum3 {float: none; width: auto; margin-right: 0;}
+
+.twitterAdd {
+float: left;
+width:140px;
+}
+.FieldRight {
+float: left;
+position: relative;
+width:48%;
+}
+.more {clear:both;}
+
+
+}
+
+
+@media (max-width:480px) {
+
+[class*="width"] {display:block; float:none; margin-right:0; width:auto; clear:both;}
+
+}
+.fashion a {width: 47%; float: left; margin: 4px;}
+.fashion a img {width: 100%; display: block;height: 89px;}
+.single img{ width: 100%; margin-bottom: 5px;}
+.single p{margin-bottom: 15px;}
+.aboutus-text{
+	line-height:21px; padding:10px;text-align: justify;
+}
+.blue{
+color: #1155CC; text-decoration: underline;
+
+}
+
+.lstgasip .ng-scope{ width: 50%; float: left; margin-bottom: 5px;}
+.lstgasip .ng-scope:nth-child(2n+1){ clear: left;}
+.lstgasip h3{ font-size: 13px;}
+.morevideos .video:nth-child(2n+1) {
+clear: both;
+}
+
+.populargasip .ng-scope{ float: left; margin-bottom: 8px; width: 100%}
+.populargasip .ng-scope:nth-child(2n+1){ clear: left;}
+.populargasip h3{ font-size: 13px;}
+.morevideos .video:nth-child(2n+1) {
+clear: both;
+}
+.populargasip .date{float: right;}
+.morevideos .video p {
+min-height:32px;
+font-weight:bold;
+}
+.date {color:#828282; font-size:10px;}
+.date a{color:#828282;}
+.pvideos h3{height: 50px;overflow: hidden; font-size: 13px;}
+.pvideos a{color:#000; }
+.pvideos a h3:hover{text-decoration: underline; }
