@@ -63,7 +63,7 @@
             {% for n in latestbeautynews1 %}
             <div class="picture">
                 <a href="/more/{{ n.id }}">
-                    <img src="http://img1.contentapi.ws/{{ n.thumb_image }}" alt="{{ n.title }}" title="{{ n.title }}"/>
+                    <img src="http://newscdn.lycos.com/{{ n.thumb_image }}" alt="{{ n.title }}" title="{{ n.title }}"/>
                 </a>
             </div>
             <div class="description">
@@ -75,7 +75,7 @@
             <div class="gallery fashion">
                   {% for n in latestbeautynews %}
               <a href="/more/{{ n.id }}">
-                          <img src="http://img1.contentapi.ws/{{ n.thumb_image }}" alt="{{ n.title }}" title="{{ n.title }}" />
+                          <img src="http://newscdn.lycos.com/{{ n.thumb_image }}" alt="{{ n.title }}" title="{{ n.title }}" />
                       </a>
                   {% endfor %}        
             </div>
@@ -91,7 +91,7 @@
             <div class="module">
                 <div class="Title red">{{ newsParam.name }}</span></div>                
                 <div class="module-inner single">
-                  <img src="http://img1.contentapi.ws/{{ newsParam.image_name }}" alt="" />                        
+                  <img src="http://newscdn.lycos.com/{{ newsParam.image_name }}" alt="" />                        
                   <div >
                       <p>{{ newsParam.content }}</p>
                   </div>                   
@@ -115,7 +115,7 @@
                         <!-- <span class="span4" style="position: relative;">
                             <a href="/playvideo/{{ n.id }}">
                                 <span class="play"></span>  
-                                <img src="http://img1.contentapi.ws/{{ n.thumb_image }}" alt="" />
+                                <img src="http://newscdn.lycos.com/{{ n.thumb_image }}" alt="" />
                             </a>
                         </span> -->
                         <div>

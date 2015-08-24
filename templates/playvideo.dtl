@@ -94,7 +94,7 @@
 //                   "flashplayer": "http://player.longtailvideo.com/player.swf",
 //                   "playlist": [
 //                     {
-//                       "file": "http://video1.contentapi.ws/{{newsParam.video}}"
+//                       "file": "http://newscdn.lycos.com/world_news/{{newsParam.video}}"
 //                     }
 //                   ],
 //                   "width": 574,
@@ -180,7 +180,7 @@
         <!-- {% for n in Models1 %}
           <div class="picture">
             <a href="/more/{{ n.id }}" title="{{ n.title }}">
-              <img src="http://img1.contentapi.ws/{{ n.thumb_image }}" alt="" title="{{ n.title }}"/>
+              <img src="http://newscdn.lycos.com/{{ n.thumb_image }}" alt="" title="{{ n.title }}"/>
             </a>
           </div>
           <div class="description"><h3>{{ n.title }}</h3>
@@ -192,7 +192,7 @@
           {% for n in Models %}
             <div class="ng-scope">
               <a href="/more/{{ n.id }}">
-                <!-- <img src="http://img1.contentapi.ws/{{ n.thumb_image }}" alt="" title="{{ n.title }}"/> -->
+                <!-- <img src="http://newscdn.lycos.com/{{ n.thumb_image }}" alt="" title="{{ n.title }}"/> -->
                 <div class="description">{{n.title}}</div>
                 <span class="date">{{n.upload_date}}</span>
               </a>
@@ -227,7 +227,7 @@
                     <!-- <div class="video" ng-repeat="n in gallery1"> -->
                       <a href="/playvideo/{{ n.id }}">
                         <span class="play"></span>  
-                        <img src="http://img1.contentapi.ws/{{ n.thumb_image }}" alt="" />
+                        <img src="http://newscdn.lycos.com/world_news/{{ n.thumb_image }}" alt="" />
                         <div class="span6">
                       <h3>{{ n.title }}</h3>
                       <span class="date">{{ n.upload_date }}</span>
@@ -248,7 +248,7 @@
                 {% for n in gallery %}
                   <div class="video">
                     <!-- <div class="video" ng-repeat="n in gallery1"> -->
-                      <a href="/more{{n.value.id}}"> <img src="http://img1.contentapi.ws/{{ n.value.thumb_image }}" alt="" /></a>
+                      <a href="/more/{{n.value.id}}"> <img src="http://newscdn.lycos.com/{{ n.value.thumb_image }}" alt="" /></a>
                   </div> 
                   
                 {% endfor %} 
@@ -274,7 +274,7 @@
                       <div class="ng-scope">                      
                           <!-- <span class="span4" style="position: relative;">
                               <a href="/more/{{ n.id }}">   
-                                <img src="http://img1.contentapi.ws/{{ n.thumb_image }}" alt="" />
+                                <img src="http://newscdn.lycos.com/{{ n.thumb_image }}" alt="" />
                               </a>
                           </span> -->
                           <div>                              

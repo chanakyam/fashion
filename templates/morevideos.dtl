@@ -69,7 +69,7 @@
             <!-- {% for n in latestbeautynews1 %}
             <div class="picture">
                 <a href="/more/{{ n.id }}">
-                    <img src="http://img1.contentapi.ws/{{ n.thumb_image }}" alt="{{ n.title }}" title="{{ n.title }}"/>
+                    <img src="http://newscdn.lycos.com/{{ n.thumb_image }}" alt="{{ n.title }}" title="{{ n.title }}"/>
                 </a>
             </div>
             <div class="description">
@@ -81,7 +81,7 @@
             <div class="gallery">
               {% for n in latestbeautynews %}
                 <a href="/more/{{ n.value.id }}">
-                  <!-- <img src="http://img1.contentapi.ws/{{ n.thumb_image }}" alt="{{ n.title }}" title="{{ n.title }}" /> -->
+                  <!-- <img src="http://newscdn.lycos.com/{{ n.thumb_image }}" alt="{{ n.title }}" title="{{ n.title }}" /> -->
                   <div class="description">{{ n.value.title }}</div>
                   <span class="date">{{n.value.upload_date}}</span>
                 </a>
@@ -103,7 +103,7 @@
                       <div class="width50">
                         <div class="video span4">
                           <a href="/playvideo/{{ n.id }}">   
-                                <img src="http://img1.contentapi.ws/{{ n.thumb_image }}" alt="" />  
+                                <img src="http://newscdn.lycos.com/world_news/{{ n.thumb_image }}" alt="" />  
                                 <span class="play"></span>               
                             </a>
                         </div>
@@ -128,7 +128,7 @@
                 <div class="row">
                 {% for n in gallery %}
                   <div class="video">
-                      <a href="/photo_gallery?c=image_gallery_view"> <img src="http://img1.contentapi.ws/{{ n.thumb_image }}" alt="" /></a>
+                      <a href="/photo_gallery?c=image_gallery_view"> <img src="http://newscdn.lycos.com/{{ n.thumb_image }}" alt="" /></a>
                     </div> 
                 {% endfor %} 
                     <span class="clear"></span>
@@ -148,7 +148,7 @@
         <!-- {% for n in Models1 %}
           <div class="picture">
             <a href="/more/{{ n.id }}" title="{{ n.title }}">
-              <img src="http://img1.contentapi.ws/{{ n.thumb_image }}" alt="" title="{{ n.title }}"/>
+              <img src="http://newscdn.lycos.com/{{ n.thumb_image }}" alt="" title="{{ n.title }}"/>
             </a>
           </div>
           <div class="description"><h3>{{ n.title }}</h3>
@@ -160,7 +160,7 @@
           {% for n in Models %}
             <div class="ng-scope">
               <a href="/more/{{ n.value.id }}">
-                <!-- <img src="http://img1.contentapi.ws/{{ n.thumb_image }}" alt="" title="{{ n.title }}"/> -->
+                <!-- <img src="http://newscdn.lycos.com/{{ n.thumb_image }}" alt="" title="{{ n.title }}"/> -->
                 <div class="description">{{ n.value.title }}</div>
                 <span class="date">{{n.value.upload_date}}</span>
               </a>

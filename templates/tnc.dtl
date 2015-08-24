@@ -116,7 +116,7 @@
                         
                             <span class="span4" style="position: relative;">
                                 <a href="/playvideo/{{ n.id }}"> <span class="play"></span>  
-                                <img src="http://img1.contentapi.ws/{{ n.thumb_image }}" alt="" />
+                                <img src="http://newscdn.lycos.com/world_news/{{ n.thumb_image }}" alt="" />
                             </a>
                             </span>
                             <div class="span6">
